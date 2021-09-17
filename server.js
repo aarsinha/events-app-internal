@@ -91,9 +91,9 @@ app.get('/version', (req, res) => {
 
 // mock events endpoint. this would be replaced by a call to a datastore
 // if you went on to develop this as a real application.
-app.get('/events', (req, res) => {
-    res.json(mockEvents);
-});
+// app.get('/events', (req, res) => {
+//     res.json(mockEvents);
+// });
 
 // Adds an event - in a real solution, this would insert into a cloud datastore.
 // Currently this simply adds an event to the mock array in memory
